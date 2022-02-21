@@ -1,1 +1,1 @@
-# bukharyay.io
+# bukharyay.github.io
