@@ -1,0 +1,96 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .top-content .carousel-caption {
+        bottom: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-left: 0.6rem;
+        padding-right: 0.6rem;
+    }
+    .top-content .carousel-caption {
+        bottom: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar.navbar-no-bg {
+        background: #444;
+    }
+    .navbar-dark .navbar-toggler {
+        border-color: #444;
+    }
+    .navbar-dark .navbar-toggler:focus {
+        background: #333;
+        outline: 0;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+    }
+    .top-content .carousel-caption {
+        bottom: 20px;
+    }
+    .top-content .carousel-indicators {
+        display: none;
+    }
+    .top-content h1 {
+        font-size: 22px;
+    }
+    .top-content .description {
+        margin: 10px 0 0 0;
+    }
+    .top-content button.btn-customized {
+        width: 40px;
+        height: 40px;
+        margin-top: 0.5rem;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 575px) {
+    .top-content .carousel-caption {
+        bottom: 0;
+    }
+    .top-content h1 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .top-content .description {
+        display: none;
+    }
+    .top-content button.btn-customized {
+        width: 36px;
+        height: 36px;
+        margin-top: 0;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 415px) {
+    h1,
+    h2 {
+        font-size: 32px;
+    }
+    .top-content h1 {
+        font-size: 18px;
+    }
+}
+
+
+/* Retina-ize images/icons */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+    /* logo */
+    .navbar-brand {
+        /* background-image: url(../../image/logo.png) !important; */
+        background-repeat: no-repeat !important;
+        background-size: 123px 34px !important;
+    }
+}
