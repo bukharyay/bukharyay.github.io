@@ -33,12 +33,76 @@
     src: url('../quicksand/Quicksand-Bold.ttf')
 }
 
-* {
+body {
     font-family: Quicksand-Medium, sans-serif !important;
 }
 
 html {
     overflow-x: hidden;
+}
+
+a.sosmed {
+    padding: 4px 6px;
+    /* min-width: 36px; */
+    border-radius: 33px;
+    text-align: center;
+    font-size: 23px !important;
+    transition: all 100ms;
+}
+
+a.sosmed.github:hover {
+    background-color: #6e5494 !important;
+    color: white !important;
+}
+
+a.sosmed.github {
+    color: #6e5494 !important;
+    background-color: #ffffff !important;
+    /* border: solid 1px #6e5494 !important; */
+}
+
+a.sosmed.youtube:hover {
+    background-color: #ff0000 !important;
+    color: white !important;
+}
+
+a.sosmed.youtube {
+    color: #ff0000 !important;
+    background-color: #ffffff !important;
+    /* border: solid 1px #ff0000 !important; */
+}
+
+a.sosmed.facebook:hover {
+    background-color: #3b5998 !important;
+    color: white !important;
+}
+
+a.sosmed.facebook {
+    color: #3b5998 !important;
+    background-color: #ffffff !important;
+    /* border: solid 1px #3b5998 !important; */
+}
+
+a.sosmed.instagram:hover {
+    background-color: #e1306c !important;
+    color: white !important;
+}
+
+a.sosmed.instagram {
+    color: #e1306c !important;
+    background-color: #ffffff !important;
+    /* border: solid 1px #e1306c !important; */
+}
+
+a.sosmed.whatsapp:hover {
+    background-color: #4AC959 !important;
+    color: white !important;
+}
+
+a.sosmed.whatsapp {
+    color: #4AC959 !important;
+    background-color: #ffffff !important;
+    /* border: solid 1px #4AC959 !important; */
 }
 
 .jumbotron {
