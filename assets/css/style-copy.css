@@ -1,0 +1,242 @@
+/* @font-face {
+    font-family: Poppins-Bold;
+    src: url('../Poppins-Bold.ttf')
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('../Poppins-Medium.ttf')
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../Poppins-Regular.ttf')
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../Montserrat-Bold.ttf')
+} */
+
+@font-face {
+    font-family: Quicksand-Regular;
+    src: url('../quicksand/Quicksand-Regular.ttf')
+}
+
+@font-face {
+    font-family: Quicksand-Medium;
+    src: url('../quicksand/Quicksand-Medium.ttf')
+}
+
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url('../quicksand/Quicksand-Bold.ttf')
+}
+
+body {
+    font-family: Quicksand-Medium, sans-serif !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.sosmed {
+    padding: 4px 6px;
+    /* min-width: 36px; */
+    border-radius: 33px;
+    text-align: center;
+    font-size: 23px !important;
+    transition: all 100ms;
+}
+
+a.sosmed.github:hover {
+    background-color: #6e5494 !important;
+    color: white !important;
+}
+
+a.sosmed.github {
+    color: #6e5494 !important;
+    background-color: #ffffff !important;
+    /* border: solid 1px #6e5494 !important; */
+}
+
+a.sosmed.youtube:hover {
+    background-color: #ff0000 !important;
+    color: white !important;
+}
+
+a.sosmed.youtube {
+    color: #ff0000 !important;
+    background-color: #ffffff !important;
+    /* border: solid 1px #ff0000 !important; */
+}
+
+a.sosmed.facebook:hover {
+    background-color: #3b5998 !important;
+    color: white !important;
+}
+
+a.sosmed.facebook {
+    color: #3b5998 !important;
+    background-color: #ffffff !important;
+    /* border: solid 1px #3b5998 !important; */
+}
+
+a.sosmed.instagram:hover {
+    background-color: #e1306c !important;
+    color: white !important;
+}
+
+a.sosmed.instagram {
+    color: #e1306c !important;
+    background-color: #ffffff !important;
+    /* border: solid 1px #e1306c !important; */
+}
+
+a.sosmed.whatsapp:hover {
+    background-color: #4AC959 !important;
+    color: white !important;
+}
+
+a.sosmed.whatsapp {
+    color: #4AC959 !important;
+    background-color: #ffffff !important;
+    /* border: solid 1px #4AC959 !important; */
+}
+
+.jumbotron {
+    background: linear-gradient(to bottom, rgb(0 0 0 / 19%) 0%, rgb(0 0 0 / 68%) 100%), url("../img/kopi.jpg") no-repeat center center;
+    /* -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#navku {
+    top: 20px !important;
+    left: 50px !important;
+    right: 56px !important;
+}
+
+.container>.row>.col-lg-12>h2>b:after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background: #ffb301;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.portofolio>.container>.row>.col-lg-12>h2 {
+    /* margin-top: 2rem; */
+}
+
+.mt2re {
+    margin-top: 2rem;
+}
+
+.mb2re {
+    margin-bottom: 2rem;
+}
+
+.all {
+    background-color: #e9ecef;
+}
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+}
+
+.hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transform: translatey(-100px);
+    -ms-transform: translatey(-100px);
+    transform: translatey(-100px);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    padding: 10px;
+}
+
+.hovereffect a.info {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 28% 0 0;
+    padding: 7px 14px;
+}
+
+.hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect:hover img {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.hovereffect:hover h2,
+.hovereffect:hover a.info {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -ms-transform: translatey(0);
+    -webkit-transform: translatey(0);
+    transform: translatey(0);
+}
+
+.hovereffect:hover a.info {
+    -webkit-transition-delay: .2s;
+    transition-delay: .2s;
+}
+
+.form-control {
+    border-radius: 23px !important;
+}
